@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- ===== CSS style sheets ===== -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e63a18e04c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--  ===== Main container ===== -->
+    <div class="main-container">
+      <!--  ===== Aside ===== -->
+      <aside>
+        <div class="logo">
+          <span class="" id="circle"></span>
+          <a href="#home" id="sadalmelik">Sadalmelik</a>
+        </div>
+        <div class="aside-container">
+          <div class="nav__toggler">
+            <div class="line">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+          <nav>
+            <ul class="nav__list">
+              <li class="nav__list__element-1">
+                <i class="fas fa-home"></i
+                ><a href="#home" class="link-1 active">Home</a>
+              </li>
+              <li class="nav__list__element-2">
+                <i class="fas fa-address-card"></i><a href="#about">About</a>
+              </li>
+
+              <li class="nav__list__element-3">
+                <i class="fas fa-briefcase"></i
+                ><a href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav__list__element-4">
+                <i class="fas fa-envelope"></i><a href="#contact">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="aside-container__social">
+            <a
+              href="https://github.com/Sadalmelik-AT"
+              class="aside-container__social__media"
+              id="github"
+              target="_blank"
+              ><i class="fab fa-github"></i></a
+            ><a
+              href="https://twitter.com/sadalmel1k"
+              class="aside-container__social__media"
+              id="twitter"
+              target="_blank"
+              ><i class="fab fa-twitter"></i></a
+            ><a href="" class="aside-container__social__media"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </aside>
+
+      <!--  ===== Aside End ===== -->
+
+      <!--===== Main section =====-->
+      <main>
+        <section class="home" id="home">
+          <div class="text">
+            <h1>
+              Hi, I am
+              <span
+                id="name
+              "
+                >Sadalmelik</span
+              >
+              and welcome to
+              <span>Mystic Dev</span>
+            </h1>
+
+            <h3>I am a <span class="typing">Web Developer</span></h3>
+            <p>
+              I am a front-end developer with a growing experience in the
+              various technologies that shape the web.
+              <br /><br />
+              I paln to use my creativity and coding skills to deliver web
+              services and share my mind on my blog that I will build from
+              scratch.
+            </p>
+            <!-- <p>
+              This is my website: place where developers can expands their
+              minds. I bring my logical and creative aspects together in my blog
+              through two of my favorite topics: programming and esoteric
+              knowledge.
+            </p> -->
+            <div class="btn">
+              <a href="#blog" class="home-btn">Mystic Dev Blog</a>
+              <a href="#contact" class="home-btn home-btn-2"
+                >Let's get in touch</a
+              >
+            </div>
+          </div>
+          <!-- <div class="img">
+            <img src="/images/profile.png" alt="" />
+          </div> -->
+        </section>
+        <section class="about hidden" id="about">
+          <div class="about__title">
+            <h2>About me</h2>
+          </div>
+          <div class="about__paragraph">
+            <p>
+              The journey starts all the way back in around 2005-6. I was 6
+              years old and I remember loving going on my parents computer,back
+              when windows XP was the trend. I opened this cool looking app, a
+              white cup of coffee on an orange square...You guessed it, Java. I
+              loved it because the text changed color whitout me doing anything,
+              so I worote paragraphs,probably didn't code anything
+              nethertheless, this was my first experience with a programming
+              language. <br />
+              I had 2 other interaction with the programming world:
+              <br />
+              &dash; I made a wordpress website on Singapour for a project in
+              University (unfortunately, it was taken down by my teacher) <br />
+              &dash; I went to a conferance on AI in my city. <br /><br />
+              Fast foward 17 years later, here I am diving deep into the
+              programming world on a journey to become a self-taugh full-stack
+              developer. I went through a very hard period and programming was
+              one of the 2 things that help me get back up. The other was
+              spirtiuality. I am
+              <br /><br />
+            </p>
+            <details>
+              <summary>Nota bene</summary>
+              <p class="msg">
+                I am only at the begining of the journey, features on the
+                website are subject to changes as I master the craft.
+              </p>
+            </details>
+          </div>
+          <div class="about__skill">
+            <h2>Skills</h2>
+            <div id="skill">
+              <ul class="about__skill__list">
+                <li>
+                  <div class="front">
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <div class="back">
+                    <h3>HTML</h3>
+                    <p>Advanced Level</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="front">
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <div class="back">
+                    <h3>CSS</h3>
+                    <p>Intermediate Level</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="front">
+                    <i class="fab fa-sass"></i>
+                  </div>
+                  <div class="back">
+                    <h3>SASS</h3>
+                    <p>Intermediate Level</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="front">
+                    <i class="fab fa-js"></i>
+                  </div>
+                  <div class="back">
+                    <h3>JavaScript</h3>
+                    <p>Beginner Level</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="front">
+                    <i class="fas fa-mobile-alt"></i>
+                  </div>
+                  <div class="back">
+                    <h3>Responsive</h3>
+                    <p>Intermediate Level</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio hidden" id="portfolio">
+          <div class="portfolio__title">
+            <h2>Portfolio</h2>
+          </div>
+
+          <div>
+            <p>These are some of the practice projects that I made so far:</p>
+            <ul class="portfolio__list" id="portfolio_list">
+              <li class="portfolio__list__element-1" id="list-1">
+                <a
+                  href="https://sadalmelik-at.github.io/3-column-preview-card/"
+                  target="_blank"
+                  >1</a
+                >
+              </li>
+              <li class="portfolio__list__element-2" id="list-2">
+                <a href="" 2>2</a>
+              </li>
+              <li class="portfolio__list__element-3" id="list-3">
+                <a href="">3</a>
+              </li>
+              <li class="portfolio__list__element-4" id="list-4">
+                <a href="">4</a>
+              </li>
+              <li class="portfolio__list__element-5" id="list-5">
+                <a href="">5</a>
+              </li>
+            </ul>
+            <div class="portfolio__link">
+              <a href="#list-1" class="portfolio__link-1">1</a
+              ><a href="#list-2" class="portfolio__link-2">2</a
+              ><a href="#list-3" class="portfolio__link-3">3</a
+              ><a href="#list-4" class="portfolio__link-4">4</a
+              ><a href="#list-5" class="portfolio__link-5">5</a>
+            </div>
+          </div>
+        </section>
+        <section class="contact hidden" id="contact">
+          <div class="contact__title">
+            <h2>Contacts</h2>
+          </div>
+
+          <div class="contact__form">
+            <div class="contact__form__message">
+              <p><span class="sendMessage">Send me a message</span></p>
+            </div>
+            <form
+              name="contact_form"
+              method="post"
+              action="form.php"
+              enctype="multipart/form-data"
+              onsubmit="return validateContactForm()"
+            >
+              <div class="row">
+                <label for="userName"
+                  >Name <span class="info" id="userName-info"></span
+                ></label>
+                <input
+                  class="input"
+                  type="text"
+                  name="userName"
+                  id="userName"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="row">
+                <label for="userEmail"
+                  >Email <span class="info" id="userEmail-info"></span></label
+                ><input
+                  class="input"
+                  type="email"
+                  name="userEmail"
+                  id="userEmail"
+                  placeholder="Your email"
+                />
+              </div>
+              <div class="row">
+                <label for="subject"
+                  >Subject <span class="info" id="subject-info"></span></label
+                ><input
+                  class="input"
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Your subject"
+                />
+              </div>
+              <div class="row">
+                <label for="message"
+                  >Message <span class="info" id="userMessage-info"></span
+                ></label>
+                <textarea
+                  class="input"
+                  name="message"
+                  id="message"
+                  placeholder="Your message"
+                  cols="60"
+                  s
+                  rows="6"
+                ></textarea>
+                <div>
+                  <input
+                    type="submit"
+                    name="send"
+                    value="send"
+                    class="submitButton"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <!--===== Main section End=====-->
+    </div>
+    <!--  ===== Main container End ===== -->
+
+    <!-- ===== JS files =====  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
